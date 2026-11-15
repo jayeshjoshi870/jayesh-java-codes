@@ -12,6 +12,11 @@ public class p15{
    System.out.printf("letter:%c \n",letter);  
    System.out.printf("index:%d \n",index);
    System.out.printf("name:%s \n",name);*/
-   System.out.printf("name.isEmpty: %s",name.isEmpty());
+   //System.out.printf("name.isEmpty: %s",name.isEmpty());
+        if(name.isEmpty()){
+            System.out.printf("name is empty");
+        }else{
+            System.out.printf("name is not empty");
+        }
  }
   }
