@@ -11,16 +11,16 @@ public class p18 {
        CHOICE = sc.nextInt();
        if(CHOICE==1){
         System.out.printf("weight convert kgs into pounds\n");
-        System.out.printf("enter the weight:\n");
+        System.out.printf("enter the weight:");
         FIRST_WEIGHT=sc.nextDouble();
         FINAL_WEIGHT=FIRST_WEIGHT*2.20462;
         System.out.printf("the final weight in pound(lbs) is:- %.2f \n",FINAL_WEIGHT);
        }else if(CHOICE == 2){
-        System.out.printf("weight convert kgs into pounds\n");
-        System.out.printf("enter the weight:\n");
+        System.out.printf("weight convert pounds(lbs) into kgs\n");
+        System.out.printf("enter the weight:");
         FIRST_WEIGHT=sc.nextDouble();
         FINAL_WEIGHT=FIRST_WEIGHT*0.453592;
-        System.out.printf("the final weight in pound(lbs) is:- %.2f\n ",FINAL_WEIGHT);
+        System.out.printf("the final weight in kgs is:- %.2f\n ",FINAL_WEIGHT);
        }else{
         System.out.println("enter the correct choice");
        }
